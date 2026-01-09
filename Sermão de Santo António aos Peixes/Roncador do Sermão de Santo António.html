@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"O Roncador","children":[{"content":"Caracter&#xed;sticas F&#xed;sicas","children":[{"content":"Corpo diminuto","children":[],"payload":{"tag":"h3","lines":"2,3"}},{"content":"Ru&#xed;do desproporcional","children":[],"payload":{"tag":"h3","lines":"3,4"}}],"payload":{"tag":"h2","lines":"1,2"}},{"content":"V&#xed;cios Personificados","children":[{"content":"Arrog&#xe2;ncia e Jact&#xe2;ncia","children":[],"payload":{"tag":"h3","lines":"5,6"}},{"content":"Vanidade oca","children":[],"payload":{"tag":"h3","lines":"6,7"}},{"content":"Apar&#xea;ncia sonora vs. Ess&#xea;ncia do ser","children":[],"payload":{"tag":"h3","lines":"7,8"}}],"payload":{"tag":"h2","lines":"4,5"}},{"content":"Cr&#xed;tica Social","children":[{"content":"Fanfarr&#xf5;es da col&#xf3;nia","children":[],"payload":{"tag":"h3","lines":"9,10"}},{"content":"Pol&#xed;ticos de ret&#xf3;rica vazia","children":[],"payload":{"tag":"h3","lines":"10,11"}},{"content":"Falta de subst&#xe2;ncia e virtude","children":[],"payload":{"tag":"h3","lines":"11,12"}}],"payload":{"tag":"h2","lines":"8,9"}},{"content":"Exemplo de Santo Ant&#xf3;nio","children":[{"content":"Agir muito / Falar pouco","children":[],"payload":{"tag":"h3","lines":"13,14"}},{"content":"Prud&#xea;ncia dos s&#xe1;bios","children":[],"payload":{"tag":"h3","lines":"14,15"}},{"content":"Nobreza nos atos, n&#xe3;o na voz","children":[],"payload":{"tag":"h3","lines":"15,16"}}],"payload":{"tag":"h2","lines":"12,13"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>

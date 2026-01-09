@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Peixe Voador","children":[{"content":"Condi&#xe7;&#xe3;o Natural","children":[{"content":"Peixe do mar","children":[],"payload":{"tag":"h3","lines":"2,3"}},{"content":"Tentativa de voar (eleva&#xe7;&#xe3;o aos ares)","children":[],"payload":{"tag":"h3","lines":"3,4"}},{"content":"Insatisfa&#xe7;&#xe3;o com a pr&#xf3;pria natureza","children":[],"payload":{"tag":"h3","lines":"4,5"}}],"payload":{"tag":"h2","lines":"1,2"}},{"content":"A Puni&#xe7;&#xe3;o Dupla","children":[{"content":"Na &#xe1;gua: Perseguido pelos peixes","children":[],"payload":{"tag":"h3","lines":"6,7"}},{"content":"No ar: Perseguido pelas aves","children":[],"payload":{"tag":"h3","lines":"7,8"}},{"content":"Aus&#xea;ncia de elemento seguro","children":[],"payload":{"tag":"h3","lines":"8,9"}}],"payload":{"tag":"h2","lines":"5,6"}},{"content":"Simbolismo da Ambi&#xe7;&#xe3;o","children":[{"content":"Vaidade desmedida","children":[],"payload":{"tag":"h3","lines":"10,11"}},{"content":"Tentativa de ascens&#xe3;o social indevida","children":[],"payload":{"tag":"h3","lines":"11,12"}},{"content":"Abandono do lugar de origem","children":[],"payload":{"tag":"h3","lines":"12,13"}}],"payload":{"tag":"h2","lines":"9,10"}},{"content":"Li&#xe7;&#xe3;o Moral","children":[{"content":"Aceita&#xe7;&#xe3;o da ordem social","children":[],"payload":{"tag":"h3","lines":"14,15"}},{"content":"Humildade contra a presun&#xe7;&#xe3;o","children":[],"payload":{"tag":"h3","lines":"15,16"}},{"content":"Perda da ess&#xea;ncia por querer ser mais","children":[],"payload":{"tag":"h3","lines":"16,17"}},{"content":"Ru&#xed;na na posi&#xe7;&#xe3;o usurpada","children":[],"payload":{"tag":"h3","lines":"17,18"}}],"payload":{"tag":"h2","lines":"13,14"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>

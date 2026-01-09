@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-PT" class="h-full bg-slate-50">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapas-Mentais - RELIA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh; }
+        .tab-button.active {
+            border-bottom-color: #5096d2;
+            color: #5096d2;
+            font-weight: 600;
+        }
+        .tab-button { border-bottom-width: 2px; border-bottom-color: transparent; transition: all 0.3s; cursor: pointer; }
+        .tab-pane { display: none; }
+        .tab-pane.active { display: block; }
+        .card-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.25rem;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.5rem;
+            transition: all 0.2s;
+            text-decoration: none;
+            color: #1e293b;
+        }
+        .card-link:hover {
+            border-color: #5096d2;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="bg-[#5096d2] text-white fixed w-full top-0 left-0 shadow-md z-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center h-16">
+            <div class="flex items-center gap-3">
+                <img src="Logo RELIA 1.png" alt="Logo RELIA" class="h-10 w-auto">
+                <span class="text-xl font-semibold tracking-tight">RELIA</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-24 sm:pt-32"></div>
+
+    <main class="flex-grow max-w-5xl mx-auto w-full px-6 sm:px-8 lg:px-12 pb-20">
+        
+        <header class="text-center mb-12 border-b border-slate-200 pb-8">
+            <h1 class="text-4xl font-bold text-slate-900 sm:text-5xl mb-4">
+                Mapas-Mentais
+            </h1>
+            <p class="text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto">
+                Mapas Mentais das Obras Literárias <strong>Os Lusíadas</strong> de Luís de Camões e <strong>Sermão de Santo António aos Peixes</strong> de Padre António Vieira.
+            </p>
+        </header>
+
+        <div class="border-b border-slate-200 mb-8 flex justify-center sm:justify-start">
+            <nav class="flex space-x-8" aria-label="Tabs">
+                <button class="tab-button active py-4 px-2 text-base font-medium" data-target="lusiadas">
+                    Os Lusíadas
+                </button>
+                <button class="tab-button py-4 px-2 text-base font-medium text-slate-500 hover:text-[#5096d2]" data-target="sermao">
+                    Sermão de St. António
+                </button>
+            </nav>
+        </div>
+
+        <section id="lusiadas" class="tab-pane active">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <a href="Os Lusíadas/Autor de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Autor</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>                
+                <a href="Os Lusíadas/Estrutura da Obra de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Estrutura da Obra</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>                  
+                <a href="Os Lusíadas/Contexto Histórico de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Contexto Histórico</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Contexto Literário de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Contexto Literário</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>                
+                <a href="Os Lusíadas/Personagens de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Todas as Personagens</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Adamastor de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Adamastor</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Deus Baco de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Deus Baco</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Deus Júpiter de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Deus Júpiter</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Deusa Vénus de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Deusa Vénus</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Ninfa Tétis de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Ninfa Tétis</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Rei de Melinde de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Rei de Melinde</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Os Lusíadas/Vasco da Gama de Os Lusíadas.html" target="_blank" class="card-link">
+                    <span>Vasco da Gama</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+            </div>
+        </section>
+
+        <section id="sermao" class="tab-pane">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <a href="Sermão de Santo António aos Peixes/Autor do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Autor</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>                
+                <a href="Sermão de Santo António aos Peixes/Contexto Histórico do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Contexto Histórico</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Contexto Literário do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Contexto Literário</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>                
+                <a href="Sermão de Santo António aos Peixes/Estrutura da Obra do Sermão de Santo António aos Peixes.html" target="_blank" class="card-link">
+                    <span>Estrutura da Obra</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>                
+                <a href="Sermão de Santo António aos Peixes/Personagens do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Todas as Personagens</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Pegador do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Pegador</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Peixe de Tobias do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Peixe de Tobias</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Peixe Voador do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Peixe Voador</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Polvo do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Polvo</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Quatro Olhos do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Quatro-Olhos</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Rémora do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Rémora</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Roncador do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Roncador</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+                <a href="Sermão de Santo António aos Peixes/Torpedo do Sermão de Santo António.html" target="_blank" class="card-link">
+                    <span>Torpedo</span>
+                    <svg class="w-5 h-5 text-[#5096d2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-auto bg-white border-t border-slate-200 py-8 text-center">
+        <div class="max-w-5xl mx-auto px-6">
+            <img src="banner patrocinios.jpg" alt="Parceiros" class="max-w-full h-auto mx-auto opacity-90 mb-4">
+        </div>
+    </footer>
+
+    <script>
+        const tabs = document.querySelectorAll('.tab-button');
+        const panes = document.querySelectorAll('.tab-pane');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = tab.dataset.target;
+                tabs.forEach(t => t.classList.remove('active', 'text-[#5096d2]'));
+                tabs.forEach(t => t.classList.add('text-slate-500'));
+                tab.classList.add('active', 'text-[#5096d2]');
+                tab.classList.remove('text-slate-500');
+                panes.forEach(p => p.classList.toggle('active', p.id === target));
+            });
+        });
+    </script>
+</body>
+</html>

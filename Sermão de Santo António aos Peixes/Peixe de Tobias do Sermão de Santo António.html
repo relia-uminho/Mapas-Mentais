@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Peixe de Tobias","children":[{"content":"Contexto B&#xed;blico","children":[{"content":"Livro de Tobias","children":[],"payload":{"tag":"h3","lines":"2,3"}},{"content":"In&#xed;cio dos louvores particulares","children":[],"payload":{"tag":"h3","lines":"3,4"}}],"payload":{"tag":"h2","lines":"1,2"}},{"content":"Simbolismo do Fel","children":[{"content":"Cura da cegueira f&#xed;sica","children":[],"payload":{"tag":"h3","lines":"5,6"}},{"content":"Met&#xe1;fora da &quot;Verdade Dura&quot;","children":[],"payload":{"tag":"h3","lines":"6,7"}},{"content":"Corre&#xe7;&#xe3;o da ignor&#xe2;ncia e do erro","children":[],"payload":{"tag":"h3","lines":"7,8"}}],"payload":{"tag":"h2","lines":"4,5"}},{"content":"Simbolismo do Cora&#xe7;&#xe3;o","children":[{"content":"Expuls&#xe3;o de dem&#xf3;nios (pelo fogo)","children":[],"payload":{"tag":"h3","lines":"9,10"}},{"content":"Fogo da caridade e palavra divina","children":[],"payload":{"tag":"h3","lines":"10,11"}},{"content":"Afugenta a mal&#xed;cia humana","children":[],"payload":{"tag":"h3","lines":"11,12"}}],"payload":{"tag":"h2","lines":"8,9"}},{"content":"O Modelo do Pregador","children":[{"content":"Poder purificador da Palavra","children":[],"payload":{"tag":"h3","lines":"13,14"}},{"content":"Ilumina&#xe7;&#xe3;o de quem n&#xe3;o v&#xea;","children":[],"payload":{"tag":"h3","lines":"14,15"}},{"content":"Prote&#xe7;&#xe3;o de quem &#xe9; tentado","children":[],"payload":{"tag":"h3","lines":"15,16"}},{"content":"Padr&#xe3;o &#xe9;tico do p&#xfa;lpito","children":[],"payload":{"tag":"h3","lines":"16,17"}}],"payload":{"tag":"h2","lines":"12,13"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
